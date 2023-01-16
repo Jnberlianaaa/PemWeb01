@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>praktikum 8.B</title>
+    <style>
+        #container {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .header {
+            background-color:rgb(0, 255, 254);
+            height: 100px;
+            text-align: center;
+            
+        }
+
+        .main {
+                background-color:rgb(167, 88, 146);
+                display: flex;
+                height: 500px;
+                justify-content: space-between;
+                padding: 1 1 auto;
+        }
+
+
+        .aside {
+                background-color: rgb(222, 184, 135);
+                width: 100%;
+                text-align: left;
+                flex-wrap: wrap
+        }
+
+        .article {
+                background-color: rgb(251, 235, 217);
+                display: flex;
+                width: 70%;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+        }
+
+        .foto {
+                display: flex;
+                justify-content: center;
+        }
+
+        .foto img {
+                width: 200px;
+                height: 200px;
+                margin: 3em;
+        }
+
+        .h2 {
+                text-align: center;
+        }
+
+        .footer {
+                background-color: rgb(62, 254, 255) ;
+                height: 100px;
+                text-align: center;
+        }
+
+    </style>
+</head>
+<body  id="container">
+    <div>    
+        <div class="header">
+           <br><center><h2>My Profile</h2></center>
+        </div>
+
+        <div class="main">
+         <div class="aside">
+            <center><h2>Profile</h2></center>
+            <tbody>
+                <tr>
+                    <td width="25%">Nama Lengkap</td>
+                    <td width="1%">:</td>
+                    <td>Janet Berliana Sambeka</td>
+                </tr>
+                <tr>
+                    <p><td>Tempat, tanggal lahir</td>
+                    <td>:</td>
+                    <td>Jakarta, 10 Januari 2003</td></p>
+                </tr>
+                <tr>
+                    <p><td>alamat</td>
+                    <td>:</td>
+                    <td>Pesanggrahan,Jakarta Selatan.</td></p>
+                </tr>
+                <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td>Jane22287si@student.nurulfikri.ac.id</td>
+                </tr>
+            <tr>
+                <h4><li>Bidang Sosial</li></h4>
+                <ol>
+                    <li>Relawan Potensi SAR Kedoya Raya</li>
+                    <li>Relawan DMC Dompet Dhuafa</li>
+                    <li>KSR PMI Kota Jakarta Pusat</li>
+                    <li>Relawan Aksi Pemuda Peduli Indonesia</li>
+                </ol>
+            </ul>
+            </tr>
+        </tbody>
+         </div>
+
+         <div class="article">
+            <h2>Image</h2>
+         <div class="foto">
+            <img src="assets/jenn.jpg" alt="jenn">
+            <img src="assets/jeni.jpeg" alt="jeni">
+            <img src="assets/jane.jpeg" alt="jane">
+        </div>
+     </div>
+    </div>
+
+        <p><div class="footer">
+           <br> <h3>Copyright @2022 JN.BERLIANA</h3>
+        </div></p>
+    </div>
+</body>
+</html>

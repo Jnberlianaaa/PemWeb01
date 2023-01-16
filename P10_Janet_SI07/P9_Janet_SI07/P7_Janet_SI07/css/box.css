@@ -1,0 +1,39 @@
+div{
+     width:1000px;
+     height: 100px;
+     position: sticky;
+}
+
+.kotak1{
+    width:1000px;
+    height:70px;
+    background-color: red;
+}
+
+.kotak3{
+    width:1000px;
+    height:70px;
+    background-color: blue;
+    left: 200px;
+}
+
+.kotak2{
+    width:200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+
+
+.kotak4{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+}
+
+.kotak5{
+    
+    width:1000px;
+     height: 50px;
+    background-color: black;
+}
